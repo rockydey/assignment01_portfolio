@@ -194,11 +194,108 @@
     color: rgb(100, 100, 100);
     margin-bottom: 25px;
 }
+#contact{
+    height: 400px;
+    background-color: #040314;
+}
+.contact-width{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 100px 0;
+}
+.icon-class1{
+    display: flex;
+    margin-bottom: 8px;
+}
+.icon-class2{
+    display: flex;
+    line-height: 50px;
+    margin-bottom: 8px;
+}
+.icon-class3{
+    display: flex;
+}
+.icon{
+    width: 45px;
+}
+.contact-1{
+    width: 35%;
+}
+.contact-1 h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.icon-para{
+    color: rgb(128, 128, 128);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.contact-2{
+    width: 40%;
+    margin-left: 220px;
+}
+.contact-2 h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+}
+.contact-3{
+    width: 25%;
+}
+.contact-3 h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.contact-3 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 25px;
+}
+.common-btn2{
+    padding: 10px 106px;
+    outline: 0;
+    background-color: #cd6133;
+    border: 1px solid #cd6133;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.input{
+    padding: 10px 20px;
+    outline: none;
+    background-color: #09062c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    border: 1px solid #09062c;
+    text-align: center;
+}
 #footer{
     height: 160px;
     background-color: rgba(0, 0, 0, 0.959);
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
     box-sizing: border-box;
 }
 #footer h1{
@@ -206,6 +303,7 @@
     font-family: 'Lora', serif;
     font-size: 40px;
     font-style: italic;
+    margin-bottom: 10px;
 }
 #footer p{
     color: white;
